@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'Parse.framework'
   s.requires_arc = true
   s.frameworks =  'StoreKit', 'AudioToolbox', 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreGraphics', 'Security', 'QuartzCore', 'CoreLocation', 'Parse'
-  s.weak_frameworks='AdSupport','Social', 'Accounts'
+  s.weak_frameworks = 'AdSupport','Social', 'Accounts'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse"' }
   s.library = 'z', 'sqlite3'
 end
