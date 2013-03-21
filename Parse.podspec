@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description  = 'To integrate after adding this pod, continue with step 9 in the QuickStart: (https://parse.com/apps/quickstart).'
   s.homepage     = 'http://parse.com'
   s.author = { 'Parse' => 'support@parse.com' }
-  s.source = { :git => 'https://github.com/jessbowers/Parse.git', :tag => '1.2.2' }
+  s.source = { :git => 'https://github.com/jessbowers/Parse.git', :tag => "v#{s.version}" }
   s.source_files = 'ParseDummy.{m,h}'
   s.preserve_paths = 'Parse.framework'
   s.requires_arc = true
