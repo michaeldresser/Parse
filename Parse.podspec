@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Parse'
-  s.version      = '1.2.7'
+  s.version      = '1.2.8'
   s.license = { :type => 'Commercial', :text => 'See https://parse.com/about/terms' }
   s.platform = :ios
   s.summary      = 'iOS framework for developing apps using the Parse BaaS.'
