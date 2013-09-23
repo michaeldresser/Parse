@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Parse'
-  s.version      = '1.2.13'
+  s.version      = '1.2.15'
   s.license = { :type => 'Commercial', :text => 'See https://parse.com/about/terms' }
   s.platform = :ios
   s.summary      = 'iOS framework for developing apps using the Parse BaaS.'
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.weak_frameworks = 'AdSupport','Social', 'Accounts'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse"' }
   s.library = 'z', 'sqlite3'
-  s.dependency 'Facebook-iOS-SDK', '~> 3.5'
+  s.dependency 'Facebook-iOS-SDK', '~> 3.7'
 end
