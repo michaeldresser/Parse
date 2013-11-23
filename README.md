@@ -1,6 +1,6 @@
 # Mirror of the Parse iOS framework
 
-This is an unofficial [Parse][http://parse.com/] Cocoapods repository for integrating iOS projects with the Parse backend. This project is not officially supported by Parse.com.
+This is an unofficial [Parse](http://parse.com/) Cocoapods repository for integrating iOS projects with the Parse backend. This project is not officially supported by Parse.com.
 
 
 ##Getting Started
