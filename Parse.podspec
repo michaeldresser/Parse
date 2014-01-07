@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Parse'
-  s.version      = '1.2.17'
+  s.version      = '1.2.18'
   s.license = { :type => 'Commercial', :text => 'See https://parse.com/about/terms' }
   s.platform = :ios
   s.summary      = 'iOS framework for developing apps using the Parse cloud app platform.'
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
   s.vendored_frameworks = 'Parse.framework'
-  s.dependency 'Facebook-iOS-SDK', '~> 3.9'
+  s.dependency 'Facebook-iOS-SDK', '~> 3.11'
 end
